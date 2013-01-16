@@ -18,7 +18,7 @@ function handleCallback(result) {
     fail = null;
 }
   
-_self.getMemory = function (theWin, theFail) {
+_self.doSimple = function (theWin, theFail) {
     win = theWin;
     fail = theFail;
     
