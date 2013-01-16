@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="com.cordova.simpleExample"
+    version="1.0.0">
+        
+    <engines>
+        <engine name="cordova" version=">=2.3.0" />
+    </engines>
+    
+    <name>simpleExample</name>
+
+    
+    <platform name="bb10">    
+        <config-file target="config.xml" parent="/widget">
+            <feature id="cordova.simpleExample" required="true" version="1.0.0.0"/>
+        </config-file>
+        
+        <source-file src="src/BlackBerry10/client.js" target-dir="ext-qnx/cordova.simpleExample" />
+        <source-file src="src/BlackBerry10/index.js" target-dir="ext-qnx/cordova.simpleExample" />
+        <source-file src="src/BlackBerry10/manifest.json" target-dir="ext-qnx/cordova.simpleExample" />
+    </platform>
+</plugin>
